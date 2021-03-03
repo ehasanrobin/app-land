@@ -207,7 +207,16 @@ section.px-5.design-section {
 
 .box-wrapper {
     text-align: center;
+    margin: .5em;
     padding: 1.5em;
+    transition:1s;
+  
+}
+.box-wrapper:hover{
+    text-align: center;
+    margin: .5em;
+    padding: 1.5em;
+    background: #ddd;
 }
 .box-description h3 {
     padding: .2em 0px;
